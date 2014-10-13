@@ -118,8 +118,8 @@ while(continueVar == "False"):
         getInputQ2 = functions.checkInputForQ2(varQ2, getInputP2, getInputQ1)                           #
         if(getInputQ2 != "False"):
             functions.displayBoard(getInputP1,getInputP2, getInputP3,
-                 getInputQ1, getInputQ2, var6,
-                 var7, var8, var9)
+                 getInputQ1, getInputQ2, varQ3,
+                 varR1, varR2, varR3)
             continueVar = "True"
         else:
             functions.displayInvalidMessage()
@@ -139,7 +139,7 @@ while(continueVar == "False"):
         if(getInputQ3 != "False"):
             functions.displayBoard(getInputP1,getInputP2, getInputP3,
                  getInputQ1, getInputQ2, getInputQ3,
-                 var7, var8, var9)
+                 varR1, varR2, varR3)
             continueVar = "True"
         else:
             functions.displayInvalidMessage()
@@ -159,7 +159,7 @@ while(continueVar == "False"):
         if(getInputR1 != "False"):
             functions.displayBoard(getInputP1,getInputP2, getInputP3,
                  getInputQ1, getInputQ2, getInputQ3,
-                 getInputR1, var8, var9)
+                 getInputR1, varR2, varR3)
             continueVar = "True"
         else:
             functions.displayInvalidMessage()
@@ -179,7 +179,7 @@ while(continueVar == "False"):
         if(getInputR2 != "False"):
             functions.displayBoard(getInputP1,getInputP2, getInputP3,
                  getInputQ1, getInputQ2, getInputQ3,
-                 getInputR1, getInputR2, var9)
+                 getInputR1, getInputR2, varR3)
             continueVar = "True"
         else:
             functions.displayInvalidMessage()
